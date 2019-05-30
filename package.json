@@ -2,9 +2,9 @@
   "name": "junk-buster-on-desktop",
   "version": "1.0.0",
   "description": "Create game with electron",
-  "main": "src/main.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
@@ -16,9 +16,12 @@
     "url": "https://github.com/PtspluS/Junk-Buster-on-Desktop/issues"
   },
   "homepage": "https://github.com/PtspluS/Junk-Buster-on-Desktop#readme",
-  "window" : {
-    "with" : 800,
-    "height" : 600,
-    "title" : "Junk Busters"
+  "window": {
+    "with": 800,
+    "height": 600,
+    "title": "Junk Busters"
+  },
+  "devDependencies": {
+    "electron": "^5.0.2"
   }
 }
